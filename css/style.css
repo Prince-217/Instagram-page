@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-color: black;
+}
+
+.d-ib{
+    display: inline-block;
+}
+
+header{
+    padding: 20px 10px;
+    /* background-color: rgb(223, 222, 222); */
+    height: 90px;
+}
+
+.container{
+    width: 100%;
+}
+
+.float-left{
+    float: left;
+}
+
+.logo{
+    /* background-color: brown; */
+    /* height: 60px; */
+    width: 20%;
+    padding: 10px 20px;
+}
+
+.logo img{
+    width: 40%;
+}
+
+.searchbox{
+    /* background-color: rgb(42, 165, 58); */
+    /* height: 60px; */
+    width: 60%;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+    
+}
+
+.searchbox input{
+    width: 80%;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.829);
+}
+
+.postbtn{
+    /* background-color: rgb(126, 42, 165); */
+    /* height: 60px; */
+    width: 10%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.postbtn .btn{
+    padding: 10px 20px;
+    color: rgb(241, 241, 241);
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(242deg,rgba(131, 58, 180, 1) 0%, rgba(252, 176, 69, 1) 100%);
+}
+
+.notification{
+    /* background-color: rgb(165, 42, 118); */
+    height: 60px;
+    width: 10%;
+    padding-top: 10px;
+    padding-right: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+.container-2{
+    width: 100%;
+    margin-left: 0;
+}
+
+.sidebar{
+    height: 170vh;
+    width: 20%;
+    padding: 25px 15px;
+    font-size: 20px;
+    border-right: 2px solid white;
+    
+}
+
+.sidebar li .story-box{
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+.sidebar li .tag{
+    color: white;
+    font-size: 20px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+ul .mb-0{
+    margin-top: 115vh;
+}
+
+li .ri-logout-box-r-line{
+    color: red;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+}
+
+ul li{
+    padding: 8px;
+    margin-bottom: 5px;
+    /* font-family: "Lexend", sans-serif; */
+    transition: all 0.8s;
+}
+
+li:hover{
+    border-radius: 10px;
+    background-color: #6d6d6d;
+}
+
+li .link{
+    text-decoration: none;
+    color: white;
+}
+
+a i{
+    margin-right: 15px;
+}
+
+.mainarea{
+    width: 80%;
+    height: 100vh;
+    /* background-color:darkolivegreen; */
+    float: left;
+    /* padding: 10px; */
+}
+
+.mainarea .feed-area{
+    width: 60%;
+    height: auto;
+    /* background-color: darkseagreen; */
+    padding: 10px;
+}
+
+
+.stories .story-box{
+    padding: 3px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    text-decoration: none;
+    overflow: hidden;
+    /* border: 1px solid rgba(224, 27, 27, 0.863); */
+    background: #833AB4;
+    background: linear-gradient(140deg, rgba(131, 58, 180, 1) 0%, rgba(232, 23, 58, 1) 61%, rgba(252, 176, 69, 1) 98%);
+}
+
+.story-box img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.ms-10{
+    margin-left: 8px;
+}
+
+.sub-story{
+    width: 100px;
+    height: auto;
+    /* background-color: aqua; */
+}
+
+.sub-story .bt-name{
+    width: 100%;
+    color: white;
+    /* margin: 10px 10px;  */
+    display: inline-block;
+    text-align: center;
+     /* font-family: "Lexend", sans-serif; */
+}
+
+.feed-area .posts-area{
+    margin: 10px auto 0px auto;
+    width: 70%;
+    /* height: 600px; */
+    border-radius: 15px;
+    /* From https://css.glass */
+    background: rgba(255, 245, 245, 0.212);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    /* background-color: burlywood; */
+    padding: 10px;
+}
+
+.posts-area .about-profile{
+    width: 100%;
+    height: 12%;
+    padding: 5px;
+    /* background-color: rgb(224, 240, 0);   */
+}
+
+.about-profile .profile-box{
+    width: 8%;
+    height: 45px;
+    border: 3px solid red;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    /* float: left; */
+}
+
+.profile-box img{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.about-profile .user-name{
+    width: 24%;
+    /* font-family: "Lexend", sans-serif; */
+    padding-left: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 13px;
+}
+
+.user-name .name{
+    font-size: 20px;
+    color: white;
+     /* font-family: "Lexend", sans-serif; */
+}
+
+.about-profile .follow-btn{
+    /* width: 100px; */
+    height: auto;
+    text-align: right;
+    margin-top: -37px;
+    margin-left: 525px;
+    margin-bottom: 10px;
+}
+
+
+.follow-btn button{
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #3636e0;
+    font-size: 15px;
+    /* font-family: "Lexend", sans-serif; */
+    color: white;
+    padding: 8px 16px;
+    margin-left: 0;
+}
+
+.posts-area .about-post{
+    width: 100%;
+    height: auto;
+    /* background-color: darkorange; */
+}
+
+.about-post img{
+    width: 100%;
+    height: auto;
+}
+
+.posts-area .description{
+    width: 100%;
+    height: auto;
+    /* background-color: gold; */
+    padding: 10px 0px; 
+}
+
+.description .summary{
+    color: white;
+}
+
+.description .btns{
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: white;
+    /* font-family: "Lexend", sans-serif; */
+}
+
+.description .btns .ri-heart-fill{
+    color: red;
+}
+
+.page-nav{
+    font-size: 20px;
+    margin-left: 200px;
+    color: white;
+}
+
+.save-btn{
+    font-size: 20px;
+    margin-left: 255px;
+    color: white;
+}
+
+.com-count{
+    color: grey;
+    margin-top: 30px;
+    color: white;
+}
+
+.date{
+    color: white;
+}
+
+.mainarea .suggestion-area{
+    width: 40%;
+    height: 170vh;
+    border-left: 2px solid white;
+    /* background-color: khaki; */
+}
+
+.yr-acc h1{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    /* font-family: "Lexend", sans-serif; */
+}
+
+.pro-pic{
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 100%;
+    padding: 0;
+    margin-left: 20px;
+    float: left;
+}
+
+.pro-pic img{
+    width: 100%;
+    height: 100%;
+}
+
+.other-acc{
+    font-size: 20px;
+    margin-top: 21px;
+    margin-left: 17px;
+    color: white;
+    /* font-family: "Lexend", sans-serif; */
+}
+
+.switch-acc{
+    float: left;
+    color: white;
+    background-color: blue;
+    padding: 10px 20px;
+    margin-top: 12px;
+    margin-left: 223px;
+    border-radius: 8px;
+    border: none;
+
+}
+
+.sug-heading{
+    margin-bottom: 0px;
+    margin-top: 60px;
+    margin-left: 15px;
+    font-size: 10px;
+    color: grey;
+    height: 60px;
+    /* font-family: "Lexend", sans-serif; */
+}
+
+.sug-heading h1{
+    float: left;
+
+}
+
+.sug-heading .see-all{
+    float: left;
+    /* margin-top: 3px; */
+    margin-left: 274px;
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+}
+
+.see-all{
+    /* margin-bottom: 20px; */
+    /* margin-top: 60px; */
+    margin-left: 40px;
+    /* float: right; */
+}
+
+
+.sub-sug-box .pro-pic{
+    width: 50px;
+    height: 50px;
+}
+
+.sug-profile img{
+    width: 100%;
+    height: 100%;
+}
+
+.sub-sug-box .other-acc{
+    font-size: 20px;
+    margin-left: 9px;
+    margin-top: 0px;
+    color: white;
+    /* width: 20px; */
+    /* font-family: "Lexend", sans-serif; */
+}
+
+.sub-sug-box .sug-follow-btn{
+    margin-right: 90px;
+    margin-top: 0px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    float: right;
+}
+
+.sug-follow-btn button{
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    /* font-family: "Lexend", sans-serif; */
+    border-radius: 8px;
+    background-color: blue;
+}
+
